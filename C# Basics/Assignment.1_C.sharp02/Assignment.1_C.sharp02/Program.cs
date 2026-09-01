@@ -30,6 +30,22 @@ class program
         // Compile - time error — you can't put text (string) into an int variable
         int pages = 464; // the rigth one 
 
+        //Q4
+        try
+        {
+            int x = 10; int y = 0;
+            int z = x / y;
+            Console.WriteLine(z);
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally
+        {
+            Console.WriteLine("Done");
+        }
+
 
     }
 }
