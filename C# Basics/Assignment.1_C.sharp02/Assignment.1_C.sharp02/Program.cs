@@ -46,6 +46,11 @@ class program
             Console.WriteLine("Done");
         }
 
+        // Q5
+        int Pages = 300;
+        double Convert_Pages = Pages; // implicit
+        Console.WriteLine(Convert_Pages);
+
 
     }
 }
