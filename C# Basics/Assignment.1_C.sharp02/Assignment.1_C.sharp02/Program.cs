@@ -110,6 +110,11 @@ class program
         book?.Title ??= "Untitled"; // title has changed from null to Untitled "permenant"
         Console.WriteLine(book?.Title);
 
+        //Q15
+        string? name = "Ahmed";
+        string confirmedName = name!; // tell confirmedName that iam sure name != null
+        Console.WriteLine($"{confirmedName}");
+
     }
 
 }
