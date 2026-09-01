@@ -100,6 +100,12 @@ class program
         string? reviewer = null;
         Console.WriteLine(reviewer == null);
 
+        //Q13
+        Book? book = null;
+        Console.WriteLine(book?.Title); // to prevent NullReferenceException
+                                        // it will print nothing but there is no crash 
+
+
     }
 
 }
