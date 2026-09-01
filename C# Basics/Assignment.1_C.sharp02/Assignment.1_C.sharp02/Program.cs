@@ -105,6 +105,10 @@ class program
         Console.WriteLine(book?.Title); // to prevent NullReferenceException
                                         // it will print nothing but there is no crash 
 
+        //Q14
+        Console.WriteLine(book?.Title ?? "Untitled"); // temporary and title still null
+        book?.Title ??= "Untitled"; // title has changed from null to Untitled "permenant"
+        Console.WriteLine(book?.Title);
 
     }
 
