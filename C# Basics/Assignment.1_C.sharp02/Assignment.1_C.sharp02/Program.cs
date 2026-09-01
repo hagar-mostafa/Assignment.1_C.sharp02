@@ -11,7 +11,15 @@ class program
 {
     static void Main()
     {
-      
+        // Q1
+        Book P1 = new Book()
+        {
+            Title = "Clean Code ",
+            Pages = 400
+        };
+        object P2 = P1;
+        Console.WriteLine(P2);
+
     }
 }
 
