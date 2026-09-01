@@ -83,6 +83,14 @@ class program
         string Conver_Pages = Page.ToString();
         Console.WriteLine(Conver_Pages.GetType());
 
+        //Q10
+        int copies = 100;
+        object boxIt = copies; // implict boxing
+        Console.WriteLine(boxIt);
+        int copies_unbox = (int)boxIt; // explicit unboxing
+        Console.WriteLine(copies_unbox);
+
+
     }
 
 }
