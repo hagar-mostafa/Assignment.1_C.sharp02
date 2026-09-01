@@ -56,6 +56,10 @@ class program
         int Convert_Price = (int)price; // explicit
         Console.WriteLine(Convert_Price);
 
+        //Q7
+        string pagesText = "464";
+        int Convert_pagesText = Convert.ToInt32(pagesText);
+        Console.WriteLine(Convert_pagesText);
 
     }
 }
