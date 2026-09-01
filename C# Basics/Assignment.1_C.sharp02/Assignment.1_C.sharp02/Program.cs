@@ -96,6 +96,10 @@ class program
         year = 2023;
         Console.WriteLine(year.Value);
 
+        //Q12
+        string? reviewer = null;
+        Console.WriteLine(reviewer == null);
+
     }
 
 }
