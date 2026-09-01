@@ -51,6 +51,11 @@ class program
         double Convert_Pages = Pages; // implicit
         Console.WriteLine(Convert_Pages);
 
+        // Q6
+        double price = 49.99;
+        int Convert_Price = (int)price; // explicit
+        Console.WriteLine(Convert_Price);
+
 
     }
 }
