@@ -90,6 +90,11 @@ class program
         int copies_unbox = (int)boxIt; // explicit unboxing
         Console.WriteLine(copies_unbox);
 
+        //Q11
+        int? year = null;
+        Console.WriteLine(year.HasValue); // return bolean "false"
+        year = 2023;
+        Console.WriteLine(year.Value);
 
     }
 
