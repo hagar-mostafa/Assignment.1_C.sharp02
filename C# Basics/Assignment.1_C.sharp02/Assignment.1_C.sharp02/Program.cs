@@ -19,11 +19,17 @@ class program
         };
         object P2 = P1;
         Console.WriteLine(P2);
+
         // Q2
         Console.WriteLine(P1.ToString());
         Console.WriteLine(P1.Equals(P1));
         Console.WriteLine(P1.GetHashCode());
         Console.WriteLine(P1.GetType());
+
+        //Q3
+        // Compile - time error — you can't put text (string) into an int variable
+        int pages = 464; // the rigth one 
+
 
     }
 }
