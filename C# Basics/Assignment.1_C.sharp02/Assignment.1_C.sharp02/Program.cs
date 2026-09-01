@@ -61,6 +61,21 @@ class program
         int Convert_pagesText = Convert.ToInt32(pagesText);
         Console.WriteLine(Convert_pagesText);
 
-    }
-}
+        //Q8
+        string yearText = "2023";
+        int parse_yearText = int.Parse(yearText);
+        Console.WriteLine(parse_yearText);
+        string badText = "abc";
 
+        int.TryParse(badText, out int tryParse_badText);
+        if (tryParse_badText == 1)
+        {
+            Console.WriteLine(tryParse_badText);
+        }
+        else
+        {
+            Console.WriteLine("Invalid number");
+        }
+    }
+
+}
