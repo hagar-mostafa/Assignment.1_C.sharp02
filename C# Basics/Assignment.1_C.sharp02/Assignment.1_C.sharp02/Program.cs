@@ -76,6 +76,13 @@ class program
         {
             Console.WriteLine("Invalid number");
         }
+
+
+        //Q9
+        int Page = 464;
+        string Conver_Pages = Page.ToString();
+        Console.WriteLine(Conver_Pages.GetType());
+
     }
 
 }
